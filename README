@@ -69,6 +69,9 @@ Of course, you need the avr cross compiling toolchain and correct
 permissions to access the USB device, see the Signal Board project
 homepage for info on this.
 
+On Debian/Ubuntu, at least 'avr-libc', 'avrdude' and 'gcc-avr' are
+needed.
+
 
 
 0x03 status
