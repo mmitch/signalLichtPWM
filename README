@@ -27,10 +27,10 @@ licensed under the GNU GPL v3 or later
 0x01 motivation
 ===============
 
-Members of the Chaos Computer Club Hannover Leitstelle511 e.V. have
+Members of the Chaos Computer Club Hannover Leitstelle 511 e.V. have
 created a small modular ATmega developmend board.  It consists of a
 base board (the Signal Board) which contains the ATmega168 processor,
-an USB port for power an programming, a reset button and some
+a USB port for power and programming, a reset button and some
 connectors.  Different shields for different funtions can be stacked
 onto the base board.
 
@@ -48,7 +48,7 @@ functionality.
 It also doubles as a way of showing how to use interrupts and to do
 software PWM (only two colors on Signal Licht can be controlled
 directly via ATmega hardware counters, the third color must be
-controlled manualle).
+controlled manually).
 
 
 
@@ -65,7 +65,7 @@ $ make pwm-licht-3.flash
 This requires that the Signal Board is in programming mode (after
 having pressed reset) and connected to your PC via USB.
 
-Of course, you need the avr cross compiling toolchain and correct
+Of course, you need the AVR cross compiling toolchain and correct
 permissions to access the USB device, see the Signal Board project
 homepage for info on this.
 
@@ -101,14 +101,14 @@ Signal Board, so everything has only been tested inside the debugger.
 
 If anybody can help on this assembler issue, please contact me.  And
 if anybody is interested in the AVR Studio projects, I can add them to
-this repository.
+this repository (if I still find them, that was years ago…).
 
 
 0x04 links
 ==========
 
 * signalLichtPWM homepage:
-  http://github.com/mmitch/signalLichtPWM
+  https://github.com/mmitch/signalLichtPWM
 
 * Signal Board project homepage:
   https://hannover.ccc.de/redmine/projects/signalboard/wiki  
@@ -117,9 +117,9 @@ this repository.
   https://hannover.ccc.de/redmine/projects/signallicht/wiki
 
 * C3H homepage
-  http://hannover.ccc.de
+  https://hannover.ccc.de
 
 * a photo of my Signal Sound prototype, a different shield for making
   music (mostly software problems remain, the hardware works):
-  http://www.cgarbs.de/blog/archives/1037-Hacking-Warpzone.html
+  https://www.cgarbs.de/blog/archives/1037-Hacking-Warpzone.html
 
